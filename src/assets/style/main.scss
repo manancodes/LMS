@@ -1,0 +1,24 @@
+@import "./variables.scss";
+@import "./pages/learning";
+@import "./navbar";
+@import "./sideMenu";
+@import "./editor";
+@import "./material";
+@import "./codeAlong";
+@import "./challenges";
+@import "./topics";
+
+.unnav{
+    padding-top: 60px;
+}
+button{
+    outline: none !important;
+    background-color: transparent;
+    border: none;
+}
+.navmenu{
+    background-color: yellowgreen;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}

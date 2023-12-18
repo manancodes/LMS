@@ -1,0 +1,86 @@
+.Material{
+    overflow: auto;
+    padding: 10px 80px;
+    position: relative;
+    width: 100%;
+}
+
+.bar{
+    display: flex;
+    flex-wrap: wrap;
+    margin : 0px;
+    padding: 0px;
+    background-color: $backGroundColor;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+.tab{
+    flex: 1;
+}
+.tab1{
+    flex: 2;
+    // padding-left: 2.5rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.box{
+    .linktab{
+        text-decoration: none;
+        padding: 1.1rem;
+        color: #768492;
+        font-weight: bold;
+        border: none;
+        background-color: transparent;
+        margin: 0 5px;
+    }
+    .linktab:hover{
+        border-bottom: 3px solid $mainColor;
+        color: $mainColor;
+    }
+    .linkactivetab{
+    border-bottom: 3px solid $mainColor;
+    color: $mainColor;
+}
+}
+
+
+
+@media only screen and (min-width:885px) {
+    .ntab{
+      display: none;
+    }
+  }
+  @media only screen and (max-width:886px) {
+    .bar{
+          height: 8rem;
+      }
+    .f1{
+        flex: 100%;
+        text-align: center;
+    }
+    
+  }
+//   @media only screen and (max-width:886px) {
+//       .f2{
+        
+//         margin-right: 4rem;
+//         margin-left: 1rem;
+//       }
+// }
+@media only screen and (min-width:503px) and (max-width:609px) {
+    .tab{
+        margin: 0px;
+    }
+  }
+  @media only screen and (max-width:503px) {
+    .f2{
+        margin: 0px;
+        font-size: 0.8rem;
+    }
+}
+
+

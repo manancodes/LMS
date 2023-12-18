@@ -1,0 +1,60 @@
+  .navbar{
+    height: 60px;
+    padding-left: 40px;
+    background-color: $mainColor;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-sizing: border-box;
+    color: $color;
+    span{
+      color: $mainColor;
+      background-color: $color;
+      border-radius: 5px;
+      padding-left: 0.4rem;
+      padding-right: 0.4rem;
+      padding-top: 0.3rem;
+      padding-bottom: 0.3rem;
+      font-size: 1.1rem;
+      font-weight: bold;
+      font-family: 'Playfair Display', serif;
+    }
+    .links{
+      width: 8rem;
+      padding: 18px;
+      text-decoration: none;
+    }
+    .activelinks{
+      border-bottom: 3px solid white;
+    }
+    .links:hover{
+      border-bottom: 3px solid white;
+    }
+    center{
+      color: white;
+    }
+    img{
+      height: 40px;
+      width: 40px;
+      border-radius: 10px;
+      
+    }
+    .marg{
+      margin-right: 3rem;
+      text-align: center;
+      a{
+        margin-top: 0.5rem;
+      }
+    }
+    
+    
+  }
+  .j{
+    justify-content: space-around;
+  }
+  .i{
+    margin-left: 100px;
+  }
+   a:hover{
+   text-decoration: none;
+ }

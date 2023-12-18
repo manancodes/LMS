@@ -1,0 +1,22 @@
+.editor-main{
+  
+    position: relative;
+    width: 0;
+    overflow: hidden;
+    transition: 500ms;
+    flex-shrink: 0;
+    /* resize: horizontal; */
+    /* position: fixed; */
+}
+
+.editor-main-open{
+   width:45vw;
+}
+
+.xyz{
+     width: 100%;
+       height: calc(100vh - 60px);
+          border: 0;
+          border-radius: 4px;
+          overflow: hidden;
+}
