@@ -2,7 +2,7 @@
 
 ## Description
 
-I made this LMS application while I was learning React. It is made using Ant Design React Components.
+I made this LMS application with a built in code editor while I was learning React. It is made using Ant Design React Components.
 
 ## Installation
 
