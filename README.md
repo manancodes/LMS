@@ -1,4 +1,5 @@
 # LMS
+<img width="800" alt="Screenshot 2024-01-03 at 5 56 54 PM" src="https://github.com/manancodes/LMS/assets/54790263/5399a638-748c-47dc-96a2-a466bd8263a1">
 
 ## Description
 
